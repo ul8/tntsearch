@@ -24,7 +24,7 @@ class TNTSearch
     public $fuzzy_prefix_length  = 2;
     public $fuzzy_max_expansions = 50;
     public $fuzzy_distance       = 2;
-    public $fuzzy_no_limit       = false;
+    public $fuzzy_no_limit       = true;
     protected $dbh               = null;
 
     /**
